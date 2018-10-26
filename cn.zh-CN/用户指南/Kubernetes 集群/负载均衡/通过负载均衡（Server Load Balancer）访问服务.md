@@ -150,7 +150,7 @@ spec:
 |service.beta.kubernetes.io/alicloud-loadbalancer-backend-label|通过 label 指定 SLB 后端挂哪些节点。|无|
 |service.beta.kubernetes.io/alicloud-loadbalancer-region|负载均衡所在的地域|无|
 |service.beta.kubernetes.io/alicloud-loadbalancer-bandwidth|负载均衡的带宽|50|
-|service.beta.kubernetes.io/alicloud-loadbalancer-cert-id|阿里云上的认证 ID。您需要先上传证书|“”|
+|service.beta.kubernetes.io/alicloud-loadbalancer-cert-id|阿里云上的证书 ID。您需要先上传证书|“”|
 |service.beta.kubernetes.io/alicloud-loadbalancer-health-check-flag|取值是 on 或者 off|默认为 off。TCP 不需要改参数。因为 TCP 默认打开健康检查，用户不可设置。|
 |service.beta.kubernetes.io/alicloud-loadbalancer-health-check-type|参见 [HealthCheck](https://help.aliyun.com/document_detail/27594.html)| |
 |service.beta.kubernetes.io/alicloud-loadbalancer-health-check-uri|参见 [HealthCheck](https://www.alibabacloud.com/help/zh/doc-detail/27594.htm)| |
